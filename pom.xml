@@ -11,7 +11,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>11</java.version>
-    <spring.boot.dependencies.version>2.6.1</spring.boot.dependencies.version>
+    <spring.boot.dependencies.version>2.6.13</spring.boot.dependencies.version>
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
     <postgresql.version>42.2.18</postgresql.version>
     <jackson.core.version>2.13.3</jackson.core.version>
