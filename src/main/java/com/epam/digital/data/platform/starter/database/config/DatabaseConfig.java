@@ -29,11 +29,6 @@ public class DatabaseConfig {
 
   @Bean
   public DataSource datasource(DatabaseProperties databaseProperties) {
-    HikariConfig configuration = new HikariConfig();
-    configuration.setJdbcUrl(databaseProperties.getUrl());
-    configuration.setUsername(databaseProperties.getUsername());
-    configuration.setPassword(databaseProperties.getPassword());
-    configuration.setConnectionTimeout(databaseProperties.getConnectionTimeout());
-    return new HikariDataSource(configuration);
+    return new HikariDataSource(databaseProperties);
   }
 }
